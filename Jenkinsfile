@@ -5,15 +5,15 @@ pipeline {
         jdk "OracleJDK8"
     }
     environment {
-        SNAP-REPO = 'vprofile-snapshot'
-        RELEASE-REPO = 'vprofile-release'
-        NEXUS-GRP-REPO = 'vpro-maven-group'
-        CENTRAL-REPO = 'vpro-maven-central'
+        SNAP_REPO = 'vprofile-snapshot'
+        RELEASE_REPO = 'vprofile-release'
+        NEXUS_GRP_REPO = 'vpro-maven-group'
+        CENTRAL_REPO = 'vpro-maven-central'
         NEXUSIP = '192.168.10.12'
         NEXUSPORT = '8081'
-        NEXUS-USER = 'admin'
-        NEXUS-PASS = 'admin'
-        NEXUS-LOGIN = 'nexuslogin'
+        NEXUS_USER = 'admin'
+        NEXUS_PASS = 'admin'
+        NEXUS_LOGIN = 'nexuslogin'
     }
 
     stages{
