@@ -12,7 +12,7 @@ pipeline {
         NEXUSIP = '192.168.10.12'
         NEXUSPORT = '8081'
         NEXUS_USER = 'admin'
-        NEXUS-PASS = 'admin'
+        NEXUS_PASS = 'admin'
         NEXUS_LOGIN = 'nexuslogin'
     }
 
